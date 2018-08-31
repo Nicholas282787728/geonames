@@ -3,6 +3,6 @@ defmodule Geonames do
     f = :code.priv_dir(:geonames)
       |> to_string()
 
-    "#{f}/seo/"
+    "#{f}/sql/"
   end
 end
